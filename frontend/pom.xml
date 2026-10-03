@@ -137,7 +137,7 @@ limitations under the License.
                         <phase>generate-resources</phase>
                         <configuration>
                             <nodeVersion>v6.14.3</nodeVersion>
-                            <npmVersion>3.1.0</npmVersion>
+                            <npmVersion>3.10.10</npmVersion>
                         </configuration>
                     </execution>
 
@@ -148,7 +148,7 @@ limitations under the License.
                         </goals>
                         <phase>generate-resources</phase>
                         <configuration>
-                            <arguments>install --silent</arguments>
+                            <arguments>install</arguments>
                         </configuration>
                     </execution>
 
